@@ -6,7 +6,10 @@ breed [ps p]
 to setup
 
     clear-all
-reset-ticks
+
+  ; комментарий
+
+
   ;let i 0
   create-komps kolvo_k [ layout-circle sort turtles 10 ]
   ;; Выставляем черепашек в круг радиусом 12 и сразу сортируем их в порядке возрастания
